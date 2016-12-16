@@ -1,0 +1,62 @@
+#main {
+background-color: #5555cc;
+}
+
+.mainField {
+  background-color: #5555cc;
+}
+.subField {
+  border-radius: 7px;
+  width: 950px;
+  display: block;
+  background-color: #ffaa00;
+  align-content: center;
+}
+
+.inputMain {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+#output1 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin-bottom: 2em;
+  width: 300px;
+  height: 35px;
+}
+
+h3 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#input1 {
+display: inline-block;
+  padding: none;
+  width: 300px;
+  height: 35px;
+}
+
+#button1 {
+  border: none;
+  border-radius: 7px;
+  background-color: #ffee33;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 8px;
+  padding-left: 8px;
+}

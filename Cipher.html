@@ -1,0 +1,31 @@
+<DOCUMENT! html>
+
+  <head>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
+    <script src="Cipher.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="Cipher.css" rel="stylesheet" type="text/css">
+  </head>
+  <body id="main">
+  <div class="jumbotron container-fluid mainField">
+  <div class="container-fluid subField">
+    <div class="row">
+      <h3>Cipher</h3>
+      <h5>This cipher will transform any text into "Rot13" code, or decode any "Rot13" text.</h5>
+    </div>
+    <div class="inputMain">
+      <input type="text" id="input1" placeholder="Type anything here"></input>
+
+     <div>
+    <button onclick="rot13()" id="button1">Transform!</button>
+    </div>
+    <div>
+      <input type="text" id="output1" placeholder="Result">
+
+    </input>
+    </div>
+    </div>
+  </div>
+  </div>
+
+</body>
